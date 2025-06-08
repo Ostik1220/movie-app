@@ -1,0 +1,30 @@
+body{
+    background: url("https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+.list{
+    background-color: darkblue;
+    list-style: georgian;
+    display: flex;
+    flex-wrap: calc();
+    gap: 23px;
+    flex-wrap: wrap;
+    padding: 10px;
+    row-gap: 34px;
+}
+.item{
+    flex: 1 0 30%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: 9px dotted white;
+height: 500px;
+}
+
+.load{
+    background-color: yellow;
+    align-self: center;
+    border: none;
+    border-radius: 30px;
+}
